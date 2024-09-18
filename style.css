@@ -1,0 +1,68 @@
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #ff6347; /* Change text color on hover */
+    text-decoration: underline; /* Add underline on hover */
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+  .gallery img {
+    width: 500px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+
+  .gallery img:hover {
+    transform: scale(1.1); /* Enlarge image on hover */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3); /* Add shadow on hover */
+  }
+  .cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #218838;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  input:focus, textarea:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 5px rgba(128, 189, 255, 0.5);
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
